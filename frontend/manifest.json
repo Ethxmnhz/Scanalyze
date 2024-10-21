@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Scanalyze",
+    "version": "1.0",
+    "description": "Scans and collects network requests and responses.",
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "activeTab",
+      "downloads",
+      "scripting",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": [
+      "http://*/*",
+      "https://*/*"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    }
+  }
+  

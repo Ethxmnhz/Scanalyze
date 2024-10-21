@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scanalyze Extension</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="popup-container">
+        <header class="popup-header">
+            <h1>Scanalyze</h1>
+            <div class="status-indicator">
+                <span class="status-light" style="background-color: red;"></span>
+                <span class="status-text">Not Connected</span>
+            </div>
+        </header>
+        <section class="popup-content">
+            <button id="start-scan" class="scan-button">Start Scan</button>
+            <button id="stop-scan" class="scan-button">Stop Scan</button>
+            <div class="results-panel">
+                <h2>Scan Results</h2>
+                <div class="results-content">
+                    <p>No data available yet. Run a scan to begin.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
