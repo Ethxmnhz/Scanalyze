@@ -1,0 +1,236 @@
+{
+  "id": "14789",
+  "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",
+  "method": "POST",
+  "requestHeaders": [
+    {
+      "name": "sec-ch-ua-full-version-list",
+      "value": "\"Google Chrome\";v=\"129.0.6668.101\", \"Not=A?Brand\";v=\"8.0.0.0\", \"Chromium\";v=\"129.0.6668.101\""
+    },
+    {
+      "name": "sec-ch-ua-platform",
+      "value": "\"Windows\""
+    },
+    {
+      "name": "Authorization",
+      "value": "SAPISIDHASH 1729439191_d71844dda81d94f20fdd2dca05fe4098d559e96b_u"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "sec-ch-ua",
+      "value": "\"Google Chrome\";v=\"129\", \"Not=A?Brand\";v=\"8\", \"Chromium\";v=\"129\""
+    },
+    {
+      "name": "sec-ch-ua-bitness",
+      "value": "\"64\""
+    },
+    {
+      "name": "sec-ch-ua-model",
+      "value": "\"\""
+    },
+    {
+      "name": "sec-ch-ua-mobile",
+      "value": "?0"
+    },
+    {
+      "name": "X-YouTube-Ad-Signals",
+      "value": "dt=1729437534044&flash=0&frm&u_tz=330&u_his=7&u_h=864&u_w=1536&u_ah=864&u_aw=1536&u_cd=24&bc=31&bih=726&biw=750&brdim=761%2C0%2C761%2C0%2C1536%2C0%2C782%2C871%2C767%2C743&vis=2&wgl=true&ca_type=image&bid=ANyPxKoTWvWFIvVMejZ9QN23MjMHRNS1x8aQ9tgcNTt_JgHb7CQMUZUXxHaOD59Ho3q2GLlmS2HxWsNauH-CWzx7_djNADX5HQ"
+    },
+    {
+      "name": "X-YouTube-Client-Name",
+      "value": "1"
+    },
+    {
+      "name": "X-Goog-Event-Time",
+      "value": "1729439191320"
+    },
+    {
+      "name": "X-Origin",
+      "value": "https://www.youtube.com"
+    },
+    {
+      "name": "sec-ch-ua-wow64",
+      "value": "?0"
+    },
+    {
+      "name": "X-YouTube-Client-Version",
+      "value": "2.20241018.01.00"
+    },
+    {
+      "name": "sec-ch-ua-arch",
+      "value": "\"x86\""
+    },
+    {
+      "name": "sec-ch-ua-full-version",
+      "value": "\"129.0.6668.101\""
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "name": "X-YouTube-Page-Label",
+      "value": "youtube.desktop.web_20241018_01_RC00"
+    },
+    {
+      "name": "sec-ch-ua-form-factors",
+      "value": "\"Desktop\""
+    },
+    {
+      "name": "X-YouTube-Page-CL",
+      "value": "687190510"
+    },
+    {
+      "name": "X-YouTube-Utc-Offset",
+      "value": "330"
+    },
+    {
+      "name": "X-Youtube-Identity-Token",
+      "value": "QUFFLUhqbmZQLVNYMlAxS3RfTTlJQ3BFYTBjU2hLNHN3Z3w="
+    },
+    {
+      "name": "X-YouTube-Device",
+      "value": "cbr=Chrome&cbrver=129.0.0.0&ceng=WebKit&cengver=537.36&cos=Windows&cosver=10.0&cplatform=DESKTOP"
+    },
+    {
+      "name": "X-Goog-Visitor-Id",
+      "value": "CgtYQWJyQk1DaXpKTSjdvtS4BjIKCgJJThIEGgAgKg%3D%3D"
+    },
+    {
+      "name": "X-Goog-Request-Time",
+      "value": "1729439191327"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "X-YouTube-Time-Zone",
+      "value": "Asia/Calcutta"
+    },
+    {
+      "name": "X-Goog-AuthUser",
+      "value": "0"
+    },
+    {
+      "name": "sec-ch-ua-platform-version",
+      "value": "\"15.0.0\""
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    },
+    {
+      "name": "Origin",
+      "value": "https://www.youtube.com"
+    },
+    {
+      "name": "X-Client-Data",
+      "value": "CIW2yQEIo7bJAQipncoBCPiEywEIlaHLAQiFoM0BCLKezgEI/aXOAQj7vs4BCJPGzgEIp8jOAQiwyM4BCJjKzgEImMvOARiPzs0BGJ2xzgEYgMrOAQ=="
+    },
+    {
+      "name": "Sec-Fetch-Site",
+      "value": "same-origin"
+    },
+    {
+      "name": "Sec-Fetch-Mode",
+      "value": "cors"
+    },
+    {
+      "name": "Sec-Fetch-Dest",
+      "value": "empty"
+    },
+    {
+      "name": "Referer",
+      "value": "https://www.youtube.com/watch?v=4CnqZeUNioA&list=RD-BtXzAkd8YA&index=6"
+    },
+    {
+      "name": "Accept-Encoding",
+      "value": "gzip, deflate, br, zstd"
+    },
+    {
+      "name": "Accept-Language",
+      "value": "en-US,en;q=0.9,hi;q=0.8"
+    },
+    {
+      "name": "Cookie",
+      "value": "SID=g.a000owgWuKVH6bRbI2RXwNyi1qoOxbIOUghTEGIbnsIfuSU2sXy6XdlyQCoCESXPxITNuZ8GfwACgYKAb0SARYSFQHGX2MiFa-QprgGaM9uNmklWZLB3RoVAUF8yKqybl0Knxx7_vEwPHcW6fzp0076; __Secure-1PSID=g.a000owgWuKVH6bRbI2RXwNyi1qoOxbIOUghTEGIbnsIfuSU2sXy61fcnwbwNdmPl6GRmIPznRQACgYKAUYSARYSFQHGX2MiqgywCRh__23e4JnUYPCmWhoVAUF8yKqCtaHmvPxv2oMrpF9KZC_U0076; __Secure-3PSID=g.a000owgWuKVH6bRbI2RXwNyi1qoOxbIOUghTEGIbnsIfuSU2sXy6thaGan5YOXayEVGv6-xLAwACgYKAQMSARYSFQHGX2Mi3SxxH5gdF9Gs3WZylUZLJxoVAUF8yKpL0bD1seQMgwTLFEj70S850076; HSID=AvXE06NxCIDGeTvBS; SSID=AjSjyxyJLDhL-vTDk; APISID=efLfKfGCR2Lvtydx/AkxSKce0HWbPzb3mZ; SAPISID=FD30RDwiwKdW88GJ/A9eyErF6E9p4QqtXt; __Secure-1PAPISID=FD30RDwiwKdW88GJ/A9eyErF6E9p4QqtXt; __Secure-3PAPISID=FD30RDwiwKdW88GJ/A9eyErF6E9p4QqtXt; LOGIN_INFO=AFmmF2swRgIhANcnV5578mkUhLxPoxPbgYohV2qB1TqI-xa5i-zpaD-OAiEAuIhf_iIz4OovreyKb6gr-K_C14PKwBbsSjNHeR-QVQ4:QUQ3MjNmd2s5ckdQUVkxVUZwWmpWUFRkS18xejV0NG5yOU5aWnEtVUdheFJlQlJpaE5pLUZxQzZaSVRLcVoyR1VXQXBaUUxlZG5RTDBRcFczRmprNVZSYXpETUxmdldoQW1Qb3dJX3JtdVpBbVdXNEFGSjB4dmFVMVM2NXJlOHd0WGFlZWVIRks5R2JVQ2ZBaXlZNHNVSHU2dV80aVhVVkZB; VISITOR_INFO1_LIVE=XAbrBMCizJM; VISITOR_PRIVACY_METADATA=CgJJThIEGgAgKg%3D%3D; PREF=tz=Asia.Calcutta&f4=4000000&f6=40000000&f7=100; YSC=p15zbp9SjE0; __Secure-1PSIDTS=sidts-CjIBQlrA-DBMSRxrS3L7cYApiryo9gvaF2gUix3TAQ54li6gU0uah3UdVKvMo1TLSx8ZjBAA; __Secure-3PSIDTS=sidts-CjIBQlrA-DBMSRxrS3L7cYApiryo9gvaF2gUix3TAQ54li6gU0uah3UdVKvMo1TLSx8ZjBAA; SIDCC=AKEyXzXQoniUpALtJMd0d-vLEoiv9xw7SexZHH7ADeTW7sg5yuBh91qESHL7veJDoQPnwQxEeYA; __Secure-1PSIDCC=AKEyXzW2nlkNdnTrPoLYUVcp-RRpokJfY_CnVPgPzG2ECjS5b9m1IWmR1ajynkeXW1ln0B-9cjw; __Secure-3PSIDCC=AKEyXzXXs_XZvh3coIH0khOzK_uGEAwPD2-Ok5gq33wCzSxjTd8bjZmExx_kEJp21lA7jSkGiWo"
+    }
+  ],
+  "requestBody": null,
+  "statusCode": 200,
+  "responseHeaders": [
+    {
+      "name": "content-type",
+      "value": "application/json; charset=UTF-8"
+    },
+    {
+      "name": "vary",
+      "value": "Origin"
+    },
+    {
+      "name": "vary",
+      "value": "X-Origin"
+    },
+    {
+      "name": "vary",
+      "value": "Referer"
+    },
+    {
+      "name": "content-encoding",
+      "value": "br"
+    },
+    {
+      "name": "date",
+      "value": "Sun, 20 Oct 2024 15:46:33 GMT"
+    },
+    {
+      "name": "server",
+      "value": "scaffolding on HTTPServer2"
+    },
+    {
+      "name": "content-length",
+      "value": "31"
+    },
+    {
+      "name": "x-xss-protection",
+      "value": "0"
+    },
+    {
+      "name": "x-frame-options",
+      "value": "SAMEORIGIN"
+    },
+    {
+      "name": "x-content-type-options",
+      "value": "nosniff"
+    },
+    {
+      "name": "alt-svc",
+      "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+    },
+    {
+      "name": "expires",
+      "value": "Sun, 20 Oct 2024 15:46:33 GMT"
+    },
+    {
+      "name": "cache-control",
+      "value": "private"
+    },
+    {
+      "name": "set-cookie",
+      "value": "SIDCC=AKEyXzXQxLPjWRVXL9VedMVW4QyZgSuXuoBKXYaQWxHVKC26njh9_ywQpNRrt2OBMD23CckRcJg; expires=Mon, 20-Oct-2025 15:46:33 GMT; path=/; domain=.youtube.com; priority=high"
+    },
+    {
+      "name": "set-cookie",
+      "value": "__Secure-1PSIDCC=AKEyXzU_VsXTfypTL1qmLX40Xf3PC-pV0E8u-PGnKkhdPolXXQT6o0gOYeeXvSkFXA6Hqc96sQ0; expires=Mon, 20-Oct-2025 15:46:33 GMT; path=/; domain=.youtube.com; Secure; HttpOnly; priority=high"
+    },
+    {
+      "name": "set-cookie",
+      "value": "__Secure-3PSIDCC=AKEyXzWCJJ5R31DxpZU6SQWELWh8GujxfHhWskisXHRnFJd4eTxOo27_aDZMMPSgI9i8GSYQDxQ; expires=Mon, 20-Oct-2025 15:46:33 GMT; path=/; domain=.youtube.com; Secure; HttpOnly; priority=high; SameSite=none"
+    }
+  ],
+  "responseBody": null
+}

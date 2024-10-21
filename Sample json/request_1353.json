@@ -1,0 +1,107 @@
+{
+  "id": "1353",
+  "url": "https://www.kkr.in/",
+  "method": "GET",
+  "type": "request",
+  "requestHeaders": [
+    {
+      "name": "sec-ch-ua-platform",
+      "value": "\"Windows\""
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "sec-ch-ua",
+      "value": "\"Google Chrome\";v=\"129\", \"Not=A?Brand\";v=\"8\", \"Chromium\";v=\"129\""
+    },
+    {
+      "name": "sec-ch-ua-mobile",
+      "value": "?0"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    },
+    {
+      "name": "Sec-Fetch-Site",
+      "value": "same-origin"
+    },
+    {
+      "name": "Sec-Fetch-Mode",
+      "value": "cors"
+    },
+    {
+      "name": "Sec-Fetch-Dest",
+      "value": "empty"
+    },
+    {
+      "name": "Referer",
+      "value": "https://www.kkr.in/"
+    },
+    {
+      "name": "Accept-Encoding",
+      "value": "gzip, deflate, br, zstd"
+    },
+    {
+      "name": "Accept-Language",
+      "value": "en-US,en;q=0.9,hi;q=0.8"
+    },
+    {
+      "name": "Cookie",
+      "value": "_ga=GA1.1.1949284489.1728726332; dh_user_id=ba83ee80-887e-11ef-b110-6383117eede2; _gcl_au=1.1.868064830.1728726335; WZRK_G=ce1ddb323afc47e1810526d6f2f0eca5; _fbp=fb.1.1728726336067.721797498837921561; popupBanner=true; ASP.NET_SessionId=gczo0coi23cgd1dc1kgx0ha3; perf_dv6Tr4n=1; moe_uuid=04558341-951c-475e-a277-5cd28b4df047; _ga_5R2WVWYMR8=GS1.1.1729523755.3.1.1729523787.28.0.0; __tr_luptv=1729523790571; _ga_Z7R22V0G0Y=GS1.1.1729523758.2.1.1729523790.28.0.0; WZRK_S_W84-8RR-RR5Z=%7B%22p%22%3A2%2C%22s%22%3A1729523759%2C%22t%22%3A1729523790%7D"
+    }
+  ],
+  "requestBody": null,
+  "response": {
+    "statusCode": 200,
+    "responseHeaders": [
+      {
+        "name": "content-type",
+        "value": "text/html; charset=utf-8"
+      },
+      {
+        "name": "etag",
+        "value": "\"3584a9-B+DnmQHQ0VnEbqc+qh1bZfUqfHM\""
+      },
+      {
+        "name": "accept-ranges",
+        "value": "none"
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-length",
+        "value": "232562"
+      },
+      {
+        "name": "cache-control",
+        "value": "max-age=78"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 21 Oct 2024 15:16:26 GMT"
+      },
+      {
+        "name": "x-xss-protection",
+        "value": "1; mode=block"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "sameorigin"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      }
+    ],
+    "responseBody": null
+  }
+}

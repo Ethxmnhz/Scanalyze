@@ -1,0 +1,38 @@
+{
+  "id": "67560",
+  "url": "http://testphp.vulnweb.com/artists.php",
+  "method": "GET",
+  "type": "request",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    },
+    {
+      "name": "Referer",
+      "value": "http://testphp.vulnweb.com/artists.php"
+    },
+    {
+      "name": "Accept-Encoding",
+      "value": "gzip, deflate"
+    },
+    {
+      "name": "Accept-Language",
+      "value": "en-US,en;q=0.9,hi;q=0.8"
+    },
+    {
+      "name": "Cookie",
+      "value": "perf_dv6Tr4n=1"
+    }
+  ],
+  "requestBody": null,
+  "response": {
+    "statusCode": 200,
+    "responseHeaders": "7 headers",
+    "responseBody": "No body available"
+  }
+}
