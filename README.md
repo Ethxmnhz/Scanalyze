@@ -1,4 +1,54 @@
 
+
+
+
+
+for dashboard and json file setup
+
+go to dashboard-->dashboard
+
+then enter commnad npm install 
+then npm start
+
+json files are in Samplejson folder in main directory
+
+display servername, url,date in ui from json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Scanalyze Setup Guide
 
 ## Set Up Python Virtual Environment
