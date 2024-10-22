@@ -43,7 +43,7 @@ function updateRequestList(requests) {
 
             // Display only key request details
             requestItem.innerHTML = `<p><strong>${sanitizeHTML(req.method)}:</strong> ${sanitizeHTML(req.url)}</p>`;
-            requestItem.addEventListener('click', () => downloadRequest(req)); // Attach download handler
+            requestItem.addEventListener('click', () => sendRequestToPython(req)); // Send request to Python
 
             requestList.appendChild(requestItem);
 
@@ -52,7 +52,7 @@ function updateRequestList(requests) {
                 responseItem.classList.add('response-item');
                 responseItem.innerHTML = `<p><strong>Status:</strong> ${sanitizeHTML(req.response.statusCode)}</p>`;
                 responseItem.innerHTML += `<p>${sanitizeHTML(req.response.responseBody ? req.response.responseBody.substring(0, 100) : "No body available")}...</p>`; // Show truncated response body
-                responseItem.addEventListener('click', () => downloadResponse(req)); // Attach download handler
+                responseItem.addEventListener('click', () => sendResponseToPython(req)); // Send response to Python
                 requestList.appendChild(responseItem);
             }
 
@@ -60,6 +60,34 @@ function updateRequestList(requests) {
             lastDisplayedRequests.push(req);
         }
     });
+}
+
+// Function to send request data to Python server
+function sendRequestToPython(request) {
+    fetch('http://localhost:5000/scan-request', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(request)
+    })
+    .then(response => response.json())
+    .then(data => console.log('Request sent to Python:', data))
+    .catch(error => console.error('Error sending request:', error));
+}
+
+// Function to send response data to Python server
+function sendResponseToPython(request) {
+    fetch('http://localhost:5000/scan-response', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(request.response)
+    })
+    .then(response => response.json())
+    .then(data => console.log('Response sent to Python:', data))
+    .catch(error => console.error('Error sending response:', error));
 }
 
 // Function to listen for new requests and update dynamically
@@ -73,26 +101,4 @@ function startListeningForRequests() {
             }
         });
     }, 2000); // Update every 2 seconds
-}
-
-// Download full request details
-function downloadRequest(request) {
-    const jsonString = JSON.stringify(request, null, 2);
-    const blob = new Blob([jsonString], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    chrome.downloads.download({
-        url: url,
-        filename: `request_${request.id}.json`
-    });
-}
-
-// Download full response details
-function downloadResponse(request) {
-    const jsonString = JSON.stringify(request.response, null, 2);
-    const blob = new Blob([jsonString], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    chrome.downloads.download({
-        url: url,
-        filename: `response_${request.id}.json`
-    });
 }
