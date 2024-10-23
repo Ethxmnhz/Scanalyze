@@ -1,31 +1,33 @@
-// src/components/Header.js
 import React from 'react';
-import { CHeader, CHeaderBrand, CHeaderNav, CNavLink, CBadge } from '@coreui/react';
+import { CHeader, CHeaderBrand, CHeaderNav } from '@coreui/react';
 import './Header.css';
 
-const Header = ({ title, riskLevel, userRole }) => {
+const Header = ({ dbConnected, apiConnected, extensionConnected }) => {
+  // Function to determine dot color based on connection status
+  const getDotColor = (isConnected) => isConnected ? 'green-dot' : 'red-dot';
+
   return (
     <CHeader className="header">
+      {/* Logo */}
       <CHeaderBrand className="logo">
         <h1>Scanalyze</h1>
       </CHeaderBrand>
+
+      {/* Status Indicators */}
       <CHeaderNav className="status">
         <div className="status-item">
-          <CBadge color="success" className="status-icon">✓</CBadge>
-          <span className="status-text">Database Connected</span>
+          <span className={`status-dot ${getDotColor(dbConnected)}`}></span>
+          <span className="status-text">Database</span>
         </div>
         <div className="status-item">
-          <CBadge color="success" className="status-icon">✓</CBadge>
-          <span className="status-text">API is Up</span>
+          <span className={`status-dot ${getDotColor(apiConnected)}`}></span>
+          <span className="status-text">Backend</span>
         </div>
-        <div className="user-role">
-          <span className="role-text">User Role: </span>
-          <CBadge color="info" className="role-badge">{userRole}</CBadge>
+        <div className="status-item">
+          <span className={`status-dot ${getDotColor(extensionConnected)}`}></span>
+          <span className="status-text">Extension</span>
         </div>
       </CHeaderNav>
-      <div className={`risk-level ${riskLevel.toLowerCase()}`}>
-        Risk Level: {riskLevel}
-      </div>
     </CHeader>
   );
 };

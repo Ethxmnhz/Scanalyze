@@ -1,0 +1,32 @@
+.scan-info {
+    background-color: #2a2a3b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  .scan-info p {
+    margin: 10px 0;
+  }
+  
+  .scan-info .score-1 {
+    color: #ff4d4d;
+  }
+  
+  .scan-info .score-2 {
+    color: #ff7f50;
+  }
+  
+  .scan-info .score-3 {
+    color: #ffd700;
+  }
+  
+  .scan-info .score-4 {
+    color: #32cd32;
+  }
+  
+  .scan-info .score-5 {
+    color: #00ff00;
+  }
+  

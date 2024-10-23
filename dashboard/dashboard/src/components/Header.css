@@ -1,63 +1,44 @@
-/* src/components/Header.css */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background: linear-gradient(135deg, #232526, #414345);
-    border-radius: 12px;
-  }
-  
-  .logo h1 {
-    font-family: 'Poppins', sans-serif;
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 2.5em; /* Bigger text for logo */
-    margin: 0; /* Remove default margin */
-  }
-  
-  .status {
-    display: flex;
-    align-items: center;
-  }
-  
-  .status-item {
-    display: flex;
-    align-items: center;
-    margin-right: 20px; /* Space between status items */
-    color: #fff; /* Text color */
-  }
-  
-  .status-icon {
-    margin-right: 5px; /* Space between icon and text */
-  }
-  
-  .user-role {
-    display: flex;
-    align-items: center;
-    margin-left: 20px; /* Space from the status items */
-  }
-  
-  .role-text {
-    color: #fff; /* User role text color */
-    margin-right: 5px; /* Space between role text and badge */
-  }
-  
-  .header-actions {
-    display: flex;
-    align-items: center;
-  }
-  
-  .risk-level {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    color: #fff;
-    padding: 8px 16px;
-    border-radius: 20px;
-    display: inline-block;
-  }
-  
-  .risk-level.critical {
-    background-color: #e74c3c; /* Red for critical risk */
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a2e;
+  padding: 10px 20px;
+  color: white;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.status {
+  display: flex;
+  gap: 20px;
+}
+
+.status-item {
+  display: flex;
+  align-items: center;
+}
+
+.status-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.green-dot {
+  background-color: #28a745; /* Green for connected */
+}
+
+.red-dot {
+  background-color: #dc3545; /* Red for disconnected */
+}
+
+.status-text {
+  font-size: 1rem;
+  color: #ffffff;
+}
